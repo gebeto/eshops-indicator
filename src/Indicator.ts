@@ -1,26 +1,26 @@
 import { getColorFromRange } from './addons';
 
 class Indicator {
-    private canvas: any;
-    private config: any;
-    private ctx: any;
-    private current: any;
-    private endGradientAngle: any;
-    private endGreenAngle: any;
-    private endRedAngle: any;
-    private gradientLength: any;
-    private indicatorLineWidth: any;
-    private indicatorRadius: any;
-    private indicatorTitle: any;
-    private max: any;
-    private maxPosY: any;
-    private min: any;
-    private minPosY: any;
-    private previous: any;
-    private size: any;
-    private startGradientAngle: any;
-    private startGreenAngle: any;
-    private startRedAngle: any;
+    canvas: any;
+    config: any;
+    ctx: any;
+    current: any;
+    endGradientAngle: any;
+    endGreenAngle: any;
+    endRedAngle: any;
+    gradientLength: any;
+    indicatorLineWidth: any;
+    indicatorRadius: any;
+    indicatorTitle: any;
+    max: any;
+    maxPosY: any;
+    min: any;
+    minPosY: any;
+    previous: any;
+    size: any;
+    startGradientAngle: any;
+    startGreenAngle: any;
+    startRedAngle: any;
 
     constructor(canvas, config) {
         this.config = {
