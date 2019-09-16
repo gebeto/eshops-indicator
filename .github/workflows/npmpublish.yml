@@ -1,4 +1,4 @@
-name: Node.js Package
+name: eshops-indicator
 
 on:
   pull_request:
