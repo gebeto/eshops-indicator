@@ -26,6 +26,4 @@ $ npm install eshops-indicator
 
 
 ## Preview
-![Example](https://gebeto.github.io/web-projects/eshops-indicator/example.png)
-
-[**Live Preview**](https://gebeto.github.io/web-projects/eshops-indicator/example.html)
+![Example](https://gebeto.github.io/eshops-indicator/example.png)
