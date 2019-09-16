@@ -1,5 +1,8 @@
 # Indicator JS
 
+JavaScript HMTL5 Canvas indicator that shows income percentage
+![Example](https://gebeto.github.io/eshops-indicator/example.png)
+
 ## Installation
 Using NPM for use with TypeScript/JavaScript
 ```sh
@@ -24,6 +27,3 @@ $ npm install eshops-indicator
 
 ```
 
-
-## Preview
-![Example](https://gebeto.github.io/eshops-indicator/example.png)
