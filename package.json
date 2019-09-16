@@ -2,11 +2,16 @@
   "name": "eshops-indicator",
   "description": "eshops indicator",
   "author": "gebeto <slavik.nychkalo@gmail.com>",
+  "keywords": [
+    "canvas",
+    "html5",
+    "indicator"
+  ],
   "repository": {
     "type" : "git",
     "url" : "https://github.com/gebeto/eshops-indicator"
   },
-  "version": "1.2.14",
+  "version": "1.2.16",
   "main": "./lib/index.js",
   "types": "./index.d.ts",
   "scripts": {
