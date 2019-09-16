@@ -1,4 +1,4 @@
-name: eshops-indicator
+name: NPM Publish
 
 on:
   pull_request:
