@@ -3,8 +3,6 @@ package-lock.json
 ftpsync.settings
 TMP
 
-.DS_Store
-
 # Logs
 logs
 *.log
