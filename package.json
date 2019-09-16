@@ -1,7 +1,12 @@
 {
   "name": "eshops-indicator",
-  "version": "1.2.12",
-  "description": "Eshops indicator",
+  "description": "eshops indicator",
+  "author": "gebeto <slavik.nychkalo@gmail.com>",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/gebeto/eshops-indicator"
+  },
+  "version": "1.2.13",
   "main": "./lib/index.js",
   "types": "./index.d.ts",
   "scripts": {
@@ -10,8 +15,7 @@
     "lib": "rm -rf ./lib && tsc",
     "test": "echo ok"
   },
-  "author": "gebeto <slavik.nychkalo@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "awesome-typescript-loader": "^5.2.1",
     "typescript": "^3.5.3",
