@@ -9,7 +9,7 @@ Using NPM for use with TypeScript/JavaScript
 $ npm install eshops-indicator
 ```
 
-## Using
+## Getting started
 
 ```html  
 <canvas id="barack-indicator" width="200"></canvas>
@@ -17,11 +17,14 @@ $ npm install eshops-indicator
 
 <script src="dist/bundle.js"></script>
 <script type="text/javascript">
-    var indicator = new EshopsIndicator(document.getElementById("barack-indicator"), {
+    var indicatorCanvas = document.getElementById("barack-indicator");
+
+    var indicator = new EshopsIndicator(indicatorCanvas, {
         current: "-150",
         previous: "400",
         title: "Barack Obama",
-    });
+    })
+;
     indicator.draw();
 </script>
 
