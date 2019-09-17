@@ -3,8 +3,8 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 
 module.exports = {
-	// entry: path.resolve(__dirname, "src/index.ts"),
-	entry: path.resolve(__dirname, "lib/index.js"),
+	entry: path.resolve(__dirname, "src/index.ts"),
+	// entry: path.resolve(__dirname, "lib/index.js"),
 	output: {
 		filename: "bundle.js",
 		path: path.resolve(__dirname, "dist"),

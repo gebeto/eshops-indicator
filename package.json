@@ -15,6 +15,7 @@
   "main": "./lib/index.js",
   "types": "./index.d.ts",
   "scripts": {
+    "watch": "webpack --mode development --watch",
     "build": "npm run lib && npm run cdn",
     "cdn": "webpack --mode production",
     "lib": "rm -rf ./lib && tsc",
