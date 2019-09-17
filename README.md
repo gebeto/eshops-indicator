@@ -23,8 +23,8 @@ $ npm install eshops-indicator
         current: "-150",
         previous: "400",
         title: "Barack Obama",
-    })
-;
+    });
+
     indicator.draw();
 </script>
 
