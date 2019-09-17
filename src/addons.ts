@@ -1,29 +1,37 @@
 import { Color } from './Color';
 
-export function Interpolate(start, end, steps, count) {
-      var s = start,
-            e = end,
-            final = s + (((e - s) / steps) * count);
-      return Math.floor(final);
+
+export function InterpolateFloat(start, end, stepsCount, stepNumber) {
+	var s = start;
+	const e = end;
+	const final = s + (((e - s) / stepsCount) * stepNumber);
+	return final;
 }
 
+export function InterpolateInt(start, end, stepsCount, stepNumber) {
+	const floatInterpolated = InterpolateFloat(start, end, stepsCount, stepNumber);
+	return Math.floor(floatInterpolated);
+}
 
 export function getColorFromRange(val) {
-	var red = new Color(255, 0, 0),
-	    middle = new Color(255, 255, 0),
-	    green = new Color(0, 128, 0),
-	    start = red,
-	    end = middle;
+	const red = new Color(255, 0, 0);
+	const middle = new Color(255, 255, 0);
+	const green = new Color(0, 128, 0);
+	let start = red;
+	let end = middle;
 
 	if (val > 50) {
-	    start = middle,
-	        end = green;
+	    start = middle;
+        end = green;
 	    val = val % 51;
 	}
-	var startColors = start.getColors(),
-	    endColors = end.getColors();
-	var r = Interpolate(startColors.r, endColors.r, 50, val);
-	var g = Interpolate(startColors.g, endColors.g, 50, val);
-	var b = Interpolate(startColors.b, endColors.b, 50, val);
+
+	const startColors = start.getColors();
+	const endColors = end.getColors();
+
+	var r = InterpolateInt(startColors.r, endColors.r, 50, val);
+	var g = InterpolateInt(startColors.g, endColors.g, 50, val);
+	var b = InterpolateInt(startColors.b, endColors.b, 50, val);
+
 	return "rgb(" + r + "," + g + "," + b + ")";
 }
