@@ -1,4 +1,6 @@
 module.exports = {
+    notify: true,
+    notifyMode: 'failure',
 	"roots": [
 		"<rootDir>/src"
 	],
