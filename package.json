@@ -24,7 +24,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@gebeto/apply-package-scope": "^1.0.2",
+    "@gebeto/apply-package-scope": "^1.0.3",
     "awesome-typescript-loader": "^5.2.1",
     "typescript": "^3.6.3",
     "uglify-js": "^3.6.0",

@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@gebeto/apply-package-scope@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@gebeto/apply-package-scope/-/apply-package-scope-1.0.2.tgz#6414e4735cfe3cba23bcda29f5514b526b9662d7"
-  integrity sha512-l0sE5Nzt22dsqaw3v2kL3Va5ZWaX1/qi8U0IEQOuntw8UCfO92Xy1gHgzr7wezgkmpCCrIw1H84yw8ief0LWyA==
+"@gebeto/apply-package-scope@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@gebeto/apply-package-scope/-/apply-package-scope-1.0.3.tgz#f1e880e3f0c1345537d92e16b21678c99aa795fb"
+  integrity sha512-uBoFoPX9AQlEC2BByxu4Yipwsy5gKxYq+qxrH3+GT+yhVNx2FMZS+iaQGSB2JdTO2fx8EbnO96bs9qkn5D2sxA==
 
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
