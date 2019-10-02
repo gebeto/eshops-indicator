@@ -16,6 +16,7 @@
   "main": "./lib/index.js",
   "types": "./index.d.ts",
   "scripts": {
+    "apply-package-scope": "apply-package-scope",
     "build": "npm run lib && npm run cdn",
     "cdn": "webpack --mode production",
     "lib": "rm -rf ./lib && tsc",
@@ -23,11 +24,12 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@gebeto/apply-package-scope": "^1.0.2",
     "awesome-typescript-loader": "^5.2.1",
-    "typescript": "^3.5.3",
+    "typescript": "^3.6.3",
     "uglify-js": "^3.6.0",
     "uglifyjs-webpack-plugin": "^2.2.0",
-    "webpack": "^4.38.0",
-    "webpack-cli": "^3.3.6"
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
   }
 }
