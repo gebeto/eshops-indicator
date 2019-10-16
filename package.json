@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/gebeto/eshops-indicator"
   },
-  "version": "1.2.32",
+  "version": "1.2.33",
   "main": "./lib/index.js",
   "types": "./index.d.ts",
   "scripts": {
