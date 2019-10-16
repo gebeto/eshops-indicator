@@ -16,17 +16,22 @@
   "main": "./lib/index.js",
   "types": "./index.d.ts",
   "scripts": {
+    "watch": "webpack --mode development --watch",
     "apply-package-scope": "apply-package-scope",
     "build": "npm run lib && npm run cdn",
     "cdn": "webpack --mode production",
     "lib": "rm -rf ./lib && tsc",
-    "test": "echo ok"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "license": "MIT",
   "devDependencies": {
+    "@types/jest": "^24.0.18",
     "@gebeto/apply-package-scope": "^1.0.3",
-    "awesome-typescript-loader": "^5.2.1",
     "typescript": "^3.6.3",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "awesome-typescript-loader": "^5.2.1",
     "uglify-js": "^3.6.0",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "^4.41.0",
